@@ -169,17 +169,21 @@
       </div>
     </section>
         </div>
+        <FooterView/>
     
 </template>
 
 <script>
 import NavBar from '@/components/NavBar.vue';
+import FooterView from '@/components/FooterView.vue'
 import '../assets/tailwind.css'
 import { useRouter } from 'vue-router';
 
+
 export default {
     components: {
-        NavBar
+        NavBar,
+        FooterView
     },
     setup(){
         const router = useRouter()
