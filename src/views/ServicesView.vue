@@ -61,11 +61,13 @@ export default {
         NavBar
     },
     setup() {
+        // inicializando instancia do router
         const router = useRouter()
         return{ router }
     },
     data (){
         return{
+            // necessário pois o vue não está pegando a imagem normalmente
             url: require('../assets/logo.png'),
             
         }
@@ -75,6 +77,9 @@ export default {
 </script>
 
 <style scoped>
+
+
+/* ANIMAÇÕES ABAIXO */
   .animation {
   animation-duration: 1.0s;
   animation-name: slidein;

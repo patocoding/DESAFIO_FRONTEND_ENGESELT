@@ -13,6 +13,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        //CORES PRÉ DEFINIDAS
         "bookmark-purple": "#5267DF",
         "bookmark-red": "#FA5959",
         "bookmark-blue": "#242A45",
@@ -23,9 +24,11 @@ module.exports = {
       },
     },
     fontFamily: {
+      //FONTES PRÉ DEFINIDAS
       Poppins: ["Poppins, sans-serif"],
     },
     container: {
+      //ESTILIZAÇÃO DE CONTAINER PRE DEFINIDA
       center: true,
       padding: "1rem",
       screens: {

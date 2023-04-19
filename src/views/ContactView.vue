@@ -5,6 +5,7 @@
     <body class=" container antialised bg-slate-800 animation">
         <div class="flex w-full min-h-screen justify-center items-center">
             <div class="flex flex-col space-y-6 bg-cyan-700 w-full max-w-4xl p-8 rounded-xl shadow-lg">
+                <!-- área de informaçoes -->
                 <div class="flex flex-col space-y-8 justify-between ">
                     <div>
                         <h1 class="font-bold text-4xl tracking-wide font-Poppins text-white">Contate-nos</h1>
@@ -31,6 +32,7 @@
                     </div>
                 </div>
                 <div class="bg-white rounded-xl shadow-lg p-8">
+                    <!-- formulário de inscrição -->
                     <form class="flex flex-col space-y-4">
                         <div>
                             <label for="" class="text-sm text-gray-600">Nome completo</label>
