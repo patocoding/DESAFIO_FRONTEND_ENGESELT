@@ -21,10 +21,10 @@
                         Aqui na ZXY Tecnologia, fazemos de tudo para melhorar sua vida, evoluindo seu jeito de pensar e viver, fazendo isso da maneira mais natural possível. Conheça nossos serviços e Clientes
                     </p>
                     <div class="flex justify-center flex-wrap gap-6 mx-auto">
-                        <button type="button" class="btn btn-purple white hover:bg-bookmark-white font-bold">
+                        <button type="button" @click="router.push('/Services')" class="btn btn-purple white hover:bg-bookmark-white font-bold">
                         Serviços
                         </button>
-                        <button type="button" class="btn btn-white hover:bg-bookmark-purple hover:text-white font-bold">
+                        <button type="button" @click="router.push('/Clientes')" class="btn btn-white hover:bg-bookmark-purple hover:text-white font-bold">
                         Clientes
                         </button>
                     </div>
