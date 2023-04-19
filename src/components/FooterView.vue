@@ -1,7 +1,7 @@
 <template>
     <div class=" bg-slate-900 w-full ">
             <footer>
-                <div class="z-30 flex flex-col ">
+                <div class="z-30 flex flex-col container ">
                     
                     <div class="flex items-center text-white text-center justify-center mt-4 mb-6">
                         <h1>ZXY Tecnologia <ion-icon name="planet"></ion-icon> <span class="font-Poppins">todos os direitos reservados</span></h1>                 
