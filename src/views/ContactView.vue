@@ -2,7 +2,7 @@
     <div>
         <NavBar/>
     </div>
-    <body class="antialised bg-gray-100 dark:bg-slate-800">
+    <body class=" container antialised bg-slate-800 animation">
         <div class="flex w-full min-h-screen justify-center items-center">
             <div class="flex flex-col space-y-6 bg-cyan-700 w-full max-w-4xl p-8 rounded-xl shadow-lg">
                 <div class="flex flex-col space-y-8 justify-between ">
@@ -69,5 +69,20 @@ export default {
 
 
 <style scoped>
+  .animation {
+  animation-duration: 1.0s;
+  animation-name: slidein;
+}
 
+  @keyframes slidein {
+  from {
+    opacity: 0.2;
+    transform:translateY(-22%);
+  }
+
+  to {
+    opacity: 1;
+    transform:translateY(0%);
+  }
+}
 </style>

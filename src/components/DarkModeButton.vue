@@ -1,7 +1,8 @@
 <template>
-    <button class="  py-2 px-4 rounded " @click="toggleDark()">
-        <ion-icon name="flashlight" class="text-4xl  text-gray-500"></ion-icon>
+        <button class="flex  py-2 px-4 rounded items-center duration-300" @click="toggleDark()">
+        <ion-icon name="flashlight" class="text-4xl  text-gray-500"></ion-icon> Modo {{isDark ? 'Escuro' : 'Claro'}}
     </button>
+    
 </template>
 
 <script>
