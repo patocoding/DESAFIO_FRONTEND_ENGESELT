@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark-mode {
+    background-color: #222222; /* Cor de fundo para o modo noturno */
+    color: #ffffff; /* Cor do texto para o modo noturno */
+  }
+
+  .btn {
+    @apply shadow-md py-3 px-6 rounded-md transition duration-300;
+  }
+  
+  .btn-purple {
+    @apply bg-bookmark-purple;
+  }
+  
+  .btn-white {
+    @apply bg-bookmark-white;
+  }
